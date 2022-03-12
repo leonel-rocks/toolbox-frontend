@@ -27,7 +27,6 @@ const Home = () => {
     const delay = setTimeout(() => {
       setFileName(searchTerm);
     }, 1000);
-
     return () => clearTimeout(delay);
   }, [searchTerm]);
 
@@ -83,21 +82,16 @@ const Home = () => {
               </Col>
               <Col>
                 <p
+                  id="file-name"
                   style={{ textAlign: "right", fontWeight: "bold" }}
-                >{`File Name: ${
-                  fileName
-                    ? fileName
-                    : files[active].file
-                    ? files[active].file
-                    : ""
-                }`}</p>
+                >{`File Name: ${fileName ? fileName : files[active]?.file}`}</p>
               </Col>
             </Row>
             <Table
               columns={["File Name", "Text", "Number", "Hex"]}
               rows={files[active]?.lines}
             />
-            {!files[active]?.lines.length && (
+            {!error && !files[active]?.lines.length && (
               <Alert variant="info">No results were found.</Alert>
             )}
           </div>

@@ -1,7 +1,6 @@
 import { Provider } from "react-redux";
 import Home from "./containers/Home";
 import store from "./store";
-import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
