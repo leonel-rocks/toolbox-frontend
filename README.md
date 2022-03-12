@@ -2,7 +2,7 @@
 
 Welcome to my code challenge. 
 
-This repository contains a web application, using **React**, which consumes an API Rest implemented on **toolbox-backend**. Also, I'm using **Redux** to store the files information.
+This repository contains a web application, using **React + React Bootstrap**, which consumes an API Rest implemented on **toolbox-backend**. Also, I'm using **Redux** to store the files information.
 
 First of all you should run the project on **NodeJs 16**. You can use nvm to easily change versions. 
 
