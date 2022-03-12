@@ -36,7 +36,7 @@ Unit tests were implemented using **Jest + Enzyme**. Coverage results are as fol
 
 ![image](https://user-images.githubusercontent.com/34432135/158038189-288b4e92-230e-4a94-9320-4bddfd24bd59.png)
 
-![image](https://user-images.githubusercontent.com/34432135/158038162-b04465b8-92c7-4f12-8f11-73c4b538a8a9.png)
+![image](https://user-images.githubusercontent.com/34432135/158038485-9e21a1ef-a0a7-4b8f-b588-e4584152df6f.png)
 
 To run tests use ```npm test```
 
